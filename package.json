@@ -1,6 +1,6 @@
 {
   "name": "@konfirm/expressionist",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prepare strings for use in RegExp objects",
   "main": "source/expressionist.js",
   "scripts": {
