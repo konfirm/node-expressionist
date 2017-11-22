@@ -1,5 +1,7 @@
 # Expressionist
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa6e844754f24c208f28522f9bb9fe1b)](https://www.codacy.com/app/konfirm/node-expressionist?utm_source=github.com&utm_medium=referral&utm_content=konfirm/node-expressionist&utm_campaign=badger)
+
 Simple helper to perform basic preparations on strings to use them in Regular Expressions.
 
 ## Getting started
