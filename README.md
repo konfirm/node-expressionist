@@ -1,4 +1,6 @@
 # Expressionist
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa6e844754f24c208f28522f9bb9fe1b)](https://www.codacy.com/app/konfirm/node-expressionist?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=konfirm/node-expressionist&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/konfirm/node-expressionist.svg?branch=master)](https://travis-ci.org/konfirm/node-expressionist)
 
 Simple helper to perform basic preparations on strings to use them in Regular Expressions.
 
