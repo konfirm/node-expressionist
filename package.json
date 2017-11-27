@@ -1,6 +1,6 @@
 {
   "name": "@konfirm/expressionist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepare strings for use in RegExp objects",
   "main": "source/expressionist.js",
   "scripts": {
@@ -21,11 +21,11 @@
     "escape",
     "ungroup"
   ],
-	"files": [
-		"source/",
-		"README.md",
-		"LICENSE"
-	],
+  "files": [
+    "source/",
+    "README.md",
+    "LICENSE"
+  ],
   "author": "Rogier Spieker <rogier@konfirm.eu>",
   "license": "MIT",
   "devDependencies": {
