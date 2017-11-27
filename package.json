@@ -21,6 +21,11 @@
     "escape",
     "ungroup"
   ],
+	"files": [
+		"source/",
+		"README.md",
+		"LICENSE"
+	],
   "author": "Rogier Spieker <rogier@konfirm.eu>",
   "license": "MIT",
   "devDependencies": {
