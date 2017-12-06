@@ -4,7 +4,7 @@
   "description": "Prepare strings for use in RegExp objects",
   "main": "source/expressionist.js",
   "scripts": {
-    "test": "lab -clr",
+    "test": "lab -vclr",
     "test-coverage-html": "lab -clr html -o report.html"
   },
   "repository": {
