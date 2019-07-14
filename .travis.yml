@@ -6,6 +6,21 @@ node_js:
 - '10'
 - '11'
 - '12'
+
+jobs:
+  include:
+    - stage: npm release
+      if: tag IS present
+      node_js: 12
+      deploy:
+        provider: npm
+        email: rogier+npm@konfirm.eu
+        on:
+          branch: master
+          tags: true
+        api_key:
+          secure: M2GdasdEs7jUJoHoTLdsP9wdWdm5Ki49/M1JSqqeHkP3akfyNP/113/IIBE/iaPvw6BkzDfg7ObCSkZ+X2KQc1k0GaBJm5EXTCcula3H3E7Pkz4MwNzHbcHSdtxIzv1rBtrc+x2Gf0zi+5A1pHuaoacm8yXbwNKIJysmvAKFr+eShcke+eLNQqVdGSrgGV4yOK42V3L0gtoZkk6Ul2bFv4tVghEZUP6yXSOMsS4U6Tzc7+al5Ur7CqPQjMew4IBKBNevF4IZZpVC4X4pR4YESGAI6YnyK+S+FPyBUufErF5pgAxAvSCxtHtcYFZY/4dyWxhLInncpqT18oB0DUhrmwnB/i3O/t4wwsdTRObRrlE1ySntrr5JMIbYjR87Xl6bFOoMRirct+/eaFQjOGgPvVxpE6d+JIK03CLakPHlUlO8YYuRHF6WfGkOpTCoi6fmf4UyZvDDPNav8oUpxT8/9Eeu9ZctcR6fErDBd+OgUzs+Dp0oiruwP3PwZLinq49CbImyHXPqqgO6SieFxY26G31BQiIWXUd6sPAGz7uRmosjH12TNiwK8XQ1A4NaondLwxtdE91RkH5YQquqqSjU9dpzPKCKz8VR8oWIgm63CxqaT7PXv31DIILSXulNe5RUyq9nBJW2CwPR5MCtEFU1K2Dz72sMd3iB4ARY6W3yD6A=
+
 notifications:
   slack:
     secure: Yloz3a613jSdCiYTwqjyaGtCc3rex4xMVWFUFksyr2oxBzdt+xv6IQ7JJiHx06lLN+FxYl3GIW1vgbJDnGpEuNEzp/6hOQqeIgk9wPNQDcizcqSwCS7q95qXqGN9GW4hR5jNX4zKRukpCaAgpWAk5JZK6uHaeYMiUsjSJRHo7ZCDQCWtFoHEV2M1Gi3jsZRvWt6hhLb4SdlVNbndtL1NSlezjGj/6rG+liaQuH4gbDvcMJpMSd9ry4GOhK8JQe0fB00ZlB729rONNizuUm0RWuacYoK8gzkao3/h8zp4UQW0Dv6vL1HSFMypdH8HjTFMPsaaHpRxGwaqb94P+duCEU7oZHOhpZHjcX/0qNozh0o6m97yeCOsPURwPMidJN7EP3Hub2tGZ1zQ0x3zodXAOiz+eP777s7mJAyaXgKz3/DuciXft/t6YfhRK9FZ9Yu7xIC2A+JKEQKn1emUD4SXpyvSI02l25V6XgW/ruHtrPTzbZX0Uj6Z5VndsMHlO5MSjGHodNcGUeiHzBbU+DeDtHm7arCSenCSLu1x9TwEoRIpnmc3m0yJcSJys5pmH9viObpBeCL77JY4I9s4FJuX05BO/AhgeAkIgZg6Dq2Vj1ADF5YWZtKPKnByjyERHcZK+Qe0gYsQNjx63orLVbOTLFm2UqCNCoIQYHUJqS/aWSw=
