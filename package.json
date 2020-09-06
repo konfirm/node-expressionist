@@ -1,30 +1,33 @@
 {
-  "name": "@konfirm/expressionist",
-  "version": "1.0.7",
-  "description": "Prepare strings for use in RegExp objects",
-  "main": "source/expressionist.js",
-  "scripts": {
-    "test": "lab -vclr",
-    "test-coverage-html": "lab -clr html -o report.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/konfirm/node-expressionist.git"
-  },
-  "bugs": {
-    "url": "https://github.com/konfirm/node-expressionist/issues"
-  },
-  "keywords": [
-    "regular expressions",
-    "regexp",
-    "regex",
-    "escape",
-    "ungroup"
-  ],
-  "author": "Rogier Spieker <rogier@konfirm.eu>",
-  "license": "MIT",
-  "devDependencies": {
-    "@konfirm/labrat": "^2.0.2",
-    "eslint-config-strict": "^14.0.1"
-  }
+	"name": "@konfirm/expressionist",
+	"version": "1.0.7",
+	"description": "Prepare strings for use in RegExp objects",
+	"main": "source/expressionist.js",
+	"scripts": {
+		"test": "lab -vclr",
+		"test-coverage-html": "lab -clr html -o report.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/konfirm/node-expressionist.git"
+	},
+	"bugs": {
+		"url": "https://github.com/konfirm/node-expressionist/issues"
+	},
+	"keywords": [
+		"regular expressions",
+		"regexp",
+		"regex",
+		"escape",
+		"ungroup"
+	],
+	"author": "Rogier Spieker <rogier@konfirm.eu>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8"
+	},
+	"devDependencies": {
+		"@konfirm/labrat": "^2.0.2",
+		"eslint-config-strict": "^14.0.1"
+	}
 }
